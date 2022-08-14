@@ -30,6 +30,10 @@
     border-radius: 25px;
 }
 
+.menu ul li:hover{
+    transform: scale(0.9);
+}
+
 .contenido{
     display: grid;
     grid-template-columns: auto auto;
