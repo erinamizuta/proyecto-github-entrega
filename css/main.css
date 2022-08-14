@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color: rgb(198, 169, 146);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado h1{
+    font-family: 'IM Fell DW Pica', serif;
+    color: white;
+    font-size: 50px;
+}
+
+.menu ul{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.menu ul li{
+    list-style: none;
+    font-family: 'IM Fell DW Pica', serif;
+    margin: 10px 5px 10px 5px;
+    border-radius: 25px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.parrafoUno{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: gray;
+    margin-top: 20px;
+    padding: 30px;
+    line-height: 1.5rem;
+}
+
+.img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.imagenTres{
+    margin-top: 1rem;
+}
+
+.imagenCuatro{
+    margin-top: 1rem;
+}
+
+footer h3{
+    text-align: center;
+    background-color: rgb(198, 169, 146);
+    width: 100vw;
+    padding: 2rem;
+    color: white;
+}
+
+/*sobre el album*/
+
+.subtitulo{
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 2.5rem;
+    color: rgb(198, 169, 146);
+    margin: 2rem 0rem;
+}
+
+.contenidoMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.parrafoAlbum{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+.subtituloUno{
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 2rem;
+    color: rgb(198, 169, 146);
+    margin: 2rem 0rem;
+}
+
+.subtituloDos{
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.5rem;
+    color: gray;
+    margin: 2rem 0rem;
+}
+.imgPortada{
+    width: 60%;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+/*multimedia*/
+
+.contenidoMultimedia h2{
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 2.2rem;
+    color: rgb(198, 169, 146);
+    margin: 2rem 0rem;
+}
+
+.contenidoMultimedia h3{
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.5rem;
+    color: gray;
+    margin: 2rem 0rem;
+}
+
+.imgMulti1{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti2{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti3{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti4{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti5{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti6{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti7{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti8{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+.imgMulti9{
+    display: block;
+    margin: 1rem auto;
+    width: 40%;
+
+}
+
+
+/*sobre el autor*/ 
+
+.sectionAutor h2{
+    color: grey;
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 24px;
+}
+
+.imgPortrato{
+    width: 13%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.sectionAutor p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+}
+
+.favoritos{
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.pFavoritos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-left: 14px;
+    margin-top: 0.5rem;
+}
+
+.imgFav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem 0;
+}
+
+
+.imgWid{
+    width: 23%;
+}
+
+
+.mainAutor p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin: 1rem 1rem;
+}
+
+@media screen and (min-width:600px) {
+    .encabezado h1{
+        font-size: 3rem;
+    }
+
+    .menu ul li{
+        font-size: 1rem;
+    }
+
+    .contenido{
+        column-gap: 1rem;
+        margin-top: 2.5rem;
+    }
+    /*sobre el autor*/ 
+    .align{
+        margin: 0 4rem;
+    }
+
+    /*multimedia*/
+
+    .imgMultimedia{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+                          "imgMulti1 imgMulti2 imgMulti3"
+                          "imgMulti4 imgMulti5 imgMulti6"
+                          "imgMulti7 imgMulti8 imgMulti9";
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgMulti1{
+        grid-area: imgMulti1;
+    
+        width: 70%;
+    
+    }
+    .imgMulti2{
+        grid-area: imgMulti2;
+       
+        width: 70%;
+    
+    }
+    .imgMulti3{
+        grid-area: imgMulti3;
+   
+        width: 70%;
+    
+    }
+    .imgMulti4{
+        grid-area: imgMulti4;
+
+        width: 70%;
+    
+    }
+    .imgMulti5{
+        grid-area: imgMulti5;
+        width: 70%;
+    
+    }
+    .imgMulti6{
+        grid-area: imgMulti6;
+   
+        width: 70%;
+    
+    }
+    .imgMulti7{
+        grid-area: imgMulti7;
+    
+        width: 70%;
+    
+    }
+    .imgMulti8{
+        grid-area: imgMulti8;
+ 
+        width: 70%;
+    }
+    .imgMulti9{
+        grid-area: imgMulti9;
+  
+        width: 70%;
+    }
+
+                
+}
+
+@media screen and (min-width:1024px) {
+    
+    .encabezado{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .encabezado h1{
+        margin-bottom: 5px;
+    }
+
+    .menu ul li{
+        font-size: 1.2rem;
+    }
+
+    .contenido{
+        grid-template-columns: repeat(4,0.2fr);
+
+    }
+
+    .contenidoMain{
+        padding: 1rem 6rem;
+    }
+    
+    .imgPortada{
+        width: 30%;
+    }
+
+    /*sobre el autor*/
+
+    .align{
+        margin: 0 15rem;
+    }
+
+    /*multimedia*/
+
+    .contenidoMultimedia h2{
+        text-align: center;
+        font-family: 'IM Fell DW Pica', serif;
+        font-size: 3rem;
+        color: rgb(198, 169, 146);
+        
+    }
+
+    .contenidoMultimedia h3{
+        text-align: left;
+        font-family: 'IM Fell DW Pica', serif;
+        font-size: 2rem;
+        color: gray;
+        margin-left: 5rem;
+        
+    }
+
+    .contenidoMultimedia{
+        margin: 0rem 10rem;
+    }
+    
+    .imgMultimedia{
+        margin-bottom: 5rem;
+    }
+  
+    .imgMulti1{
+        grid-area: imgMulti1; 
+        width: 60%;
+    
+    }
+    .imgMulti2{
+        grid-area: imgMulti2;
+        width: 60%;
+    
+    }
+    .imgMulti3{
+        grid-area: imgMulti3;
+        width: 60%;
+    
+    }
+    .imgMulti4{
+        grid-area: imgMulti4;
+        width: 60%;
+    
+    }
+    .imgMulti5{
+        grid-area: imgMulti5;
+        width: 60%;
+    
+    }
+    .imgMulti6{
+        grid-area: imgMulti6;
+        width: 60%;
+    
+    }
+    .imgMulti7{
+        grid-area: imgMulti7;
+        width: 60%;
+    
+    }
+    .imgMulti8{
+        grid-area: imgMulti8;
+        width: 60%;
+    }
+    .imgMulti9{
+        grid-area: imgMulti9;
+        width: 60%;
+    }
+
+
+}
